@@ -1,4 +1,7 @@
 /* heading styles */
+*{
+    font-family: 'Open Sans', sans-serif;
+}
 
 .banner-container {
     display: flex;
@@ -91,7 +94,7 @@ header {
     color: #151414;
 }
 
-.my-plan-title{
+.my-plan-title {
     margin-bottom: 50px;
     margin-left: 400px;
 }
@@ -107,12 +110,44 @@ header {
     height: 150px;
     text-align: center;
 }
-.plan-img{
+
+.plan-img {
     width: 70px;
     height: 70px;
 }
-.my-plan-section{
-    margin-top: 150px ;
+
+.my-plan-section {
+    margin-top: 150px;
     margin-left: 290px;
-    
+
+}
+
+/* linear Gradient section  styles*/
+
+.linear-gradient-section {
+
+    background-image: url("../images/gradient1.png");
+    background-repeat: no-repeat;
+    width: 840px;
+    height: 230px;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+.gradient-title {
+    padding-top: 50px;
+    padding-left: 55px;
+    font-weight: 700;
+    font-size: 25px;
+    color: #FFFFFF;
+
+}
+
+.call-btn {
+    margin-top: 35px;
+    margin-left: 55px;
+    padding: 12px;
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 17px;
 }
