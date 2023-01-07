@@ -46,7 +46,7 @@ header {
 .font-image {
     width: 500px;
     height: 670px;
-    
+
 }
 
 .my-failures-container {
@@ -75,4 +75,44 @@ header {
     font-size: 16px;
     color: #444343;
 
+}
+
+/* my plans styles */
+
+.plans-container {
+    display: flex;
+    gap: 25px;
+
+}
+
+.plans-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #151414;
+}
+
+.my-plan-title{
+    margin-bottom: 50px;
+    margin-left: 400px;
+}
+
+.plan-status {
+    color: #737272;
+    font-weight: 500;
+    font-size: 17px
+}
+
+.plan {
+    width: 200px;
+    height: 150px;
+    text-align: center;
+}
+.plan-img{
+    width: 70px;
+    height: 70px;
+}
+.my-plan-section{
+    margin-top: 150px ;
+    margin-left: 290px;
+    
 }
