@@ -1,5 +1,5 @@
 /* heading styles */
-*{
+* {
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -150,4 +150,72 @@ header {
     color: #005FAC;
     font-weight: 600;
     font-size: 17px;
+}
+
+
+/* footer styles */
+
+.footer-section {
+    display: flex;
+    width: 1370px;
+    height: 400px;
+    background: #151414;
+    margin-top: 100px;
+
+
+
+}
+
+
+.footer-title {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 37px;
+
+}
+
+.footer-description {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.footer-container-1 {
+    width: 485px;
+    height: 250px;
+    margin-top: 70px;
+    margin-left: 130px;
+
+}
+
+.email {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.phone {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#subscribe-text {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.footer-container-2 {
+    margin-top: 70px;
+    margin-left: 300px;
+}
+
+.sub-btn {
+    width: 180x;
+    height: 40px;
+    color: #FFFFFF;
+    margin-top: 12px;
+    background-color: #005FAC;
+    border-radius: 5px;
 }
