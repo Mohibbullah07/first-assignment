@@ -19,11 +19,13 @@ header {
     font-weight: 700;
     font-size: 40px;
     margin: 216px 230px 365px 845px;
+    color: #FFFFFF;
 }
 
 .banner-text {
     font-weight: 400;
     font-size: 16px;
+    color: #FFFFFF;
 }
 
 .contact-btn {
@@ -65,12 +67,14 @@ header {
     font-weight: 700;
     font-size: 30px;
     color: #151414;
+
 }
 
 .failures-description {
     font-weight: 400;
     font-size: 16px;
     width: 200px;
+    color: #444343;
 }
 
 .my-failures-list {
@@ -94,9 +98,10 @@ header {
     color: #151414;
 }
 
-.my-plan-title {
+.my-plan-text{
     margin-bottom: 50px;
     margin-left: 400px;
+    color: #151414;
 }
 
 .plan-status {
@@ -125,6 +130,7 @@ header {
 /* linear Gradient section  styles*/
 
 .linear-gradient-section {
+  
 
     background-image: url("../images/gradient1.png");
     background-repeat: no-repeat;
@@ -150,6 +156,7 @@ header {
     color: #005FAC;
     font-weight: 600;
     font-size: 17px;
+    border-radius: 10px;
 }
 
 
