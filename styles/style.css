@@ -70,6 +70,7 @@ header {
 
 }
 
+
 .failures-description {
     font-weight: 400;
     font-size: 16px;
@@ -82,6 +83,11 @@ header {
     font-size: 16px;
     color: #444343;
 
+}
+
+.tick{
+    color: green;
+    margin-right: 2px;
 }
 
 /* my plans styles */
@@ -132,8 +138,10 @@ header {
 .linear-gradient-section {
   
 
-    background-image: url("../images/gradient1.png");
+    background-image: linear-gradient(to right, rgb(125, 125, 250), rgb(188, 230, 188)) , url("../images/watch.png");
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     width: 840px;
     height: 230px;
     margin-left: 300px;
