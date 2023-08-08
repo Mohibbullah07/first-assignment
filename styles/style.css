@@ -90,6 +90,25 @@ header {
     margin-right: 2px;
 }
 
+/* Already Learn Skill Styles */
+
+.learn-header-text{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.my-skill-container{
+display: flex;
+gap: 25px;
+justify-content: center;
+}
+
+.skill-img{
+    width: 50px;
+    height: 60px;
+}
+.skill{
+    text-align: center;
+}
 /* my plans styles */
 
 .plans-container {
@@ -138,7 +157,8 @@ header {
 .linear-gradient-section {
   
 
-    background-image: linear-gradient(to right, rgb(125, 125, 250), rgb(188, 230, 188)) , url("../images/watch.png");
+    background-image: linear-gradient(to right,  #005FAC, rgba(206, 206, 223, 0.5)),url('../images/watch.png') ;
+   
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -146,6 +166,7 @@ header {
     height: 230px;
     margin-left: 300px;
     margin-top: 100px;
+    border-radius: 5px;
 }
 
 .gradient-title {
